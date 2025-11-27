@@ -1,0 +1,31 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/OneDrive_Desktop_New workspace_7fa6ed6c._.js",
+        "server/edge/chunks/[root-of-the-server]__9d884c95._.js",
+        "server/edge/chunks/turbopack-OneDrive_Desktop_New workspace_edge-wrapper_03a32d7a.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!_next/static|_next/image|favicon.ico).*){(\\\\.json)}?",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "i9jmN4+jurMdqFRjeaSSl7LcXMWTlGFP0seIvcSSccU=",
+        "__NEXT_PREVIEW_MODE_ID": "9c8c8000d8e3bfce663283382f0e6a48",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "f54f6256b02fcce7addf9caba33e63cbb0763d3dd55be4719d951d813d8d6892",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "99af3c6c774513da33ffbb85a0042e6512626a18c74ec54070c69a5a3bd7f230"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

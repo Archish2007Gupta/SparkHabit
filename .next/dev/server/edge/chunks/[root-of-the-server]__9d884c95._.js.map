@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/New workspace/middleware.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\nimport type { NextRequest } from 'next/server';\r\n\r\nexport function middleware(request: NextRequest) {\r\n    // Allow all routes without authentication\r\n    // No authentication required for any page\r\n    return NextResponse.next();\r\n}\r\n\r\n// Configure which routes to run middleware on\r\nexport const config = {\r\n    matcher: [\r\n        /*\r\n         * Match all request paths except for the ones starting with:\r\n         * - _next/static (static files)\r\n         * - _next/image (image optimization files)\r\n         * - favicon.ico (favicon file)\r\n         */\r\n        '/((?!_next/static|_next/image|favicon.ico).*)',\r\n    ],\r\n};\r\n"],"names":[],"mappings":";;;;;;AAAA;AAAA;;AAGO,SAAS,WAAW,OAAoB;IAC3C,0CAA0C;IAC1C,0CAA0C;IAC1C,OAAO,yOAAY,CAAC,IAAI;AAC5B;AAGO,MAAM,SAAS;IAClB,SAAS;QACL;;;;;SAKC,GACD;KACH;AACL"}}]
+}
